@@ -55,3 +55,15 @@ nav ul a {
   color: #1a1a1a;
   text-decoration: none;
 }
+nav > a {
+    background-color: #c0392b;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+}
+nav > a:hover {
+    background-color: #a93226;
+}
