@@ -182,3 +182,26 @@ header + section > div.tarjetas-container {
 header + section > div.tarjetas-container > div {
     flex-basis: 23%; 
 }
+header + section > div.tarjetas-container > div {
+    background-color: #ffffff;
+    border: 0.1rem solid #e0ddd5;
+    border-radius: 1rem;
+    overflow: hidden; /* Para que la imagen respete el borde redondeado */
+}
+header + section > div.tarjetas-container > div img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+header + section > div.tarjetas-container > div .card-info {
+    padding: 1.2rem;
+}
+header + section > div.tarjetas-container > div h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+header + section > div.tarjetas-container > div p {
+    font-size: 1.1rem;
+    color: #555555;
+}
