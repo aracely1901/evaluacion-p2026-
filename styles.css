@@ -100,3 +100,19 @@ nav + span + h1 span {
     display: block;
     color: #c0392b;
 }
+nav + span + h1 + p {
+    color: #888888;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    max-width: 34rem;
+    margin-bottom: 2.8rem;
+}
+nav + span + h1 + p + a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+nav + span + h1 + p + a + a {
+    display: inline-flex;
+    align-items: center;
+}
