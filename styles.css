@@ -148,3 +148,37 @@ header + section {
     background-color: #ffffff;
     padding: 4.8rem 3.2rem;
 }
+header + section > header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2.8rem;
+}
+header + section > header span {
+    color: #c0392b;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    display: block;
+}
+header + section > header h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+header + section > header a {
+    color: #555555;
+    font-size: 1.2rem;
+    border-bottom: 0.1rem solid #e0ddd5;
+    text-decoration: none;
+}
+header + section > header a:hover {
+    color: #c0392b;
+    border-color: #c0392b;
+}
+header + section > div.tarjetas-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+header + section > div.tarjetas-container > div {
+    flex-basis: 23%; 
+}
