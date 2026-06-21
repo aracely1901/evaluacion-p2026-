@@ -82,3 +82,12 @@ nav > a:hover {
 .hero-text {
     flex-basis: 50%;
 }
+.pill {
+    color: #c0392b;
+    border: 0.1rem solid rgba(192, 57, 43, 0.5);
+    font-size: 1rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block; 
+}
