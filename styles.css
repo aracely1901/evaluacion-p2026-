@@ -88,3 +88,15 @@ nav + span + h1 span {
     display: block;
     font-weight: bold;
 }
+nav + span + h1 {
+    color: #ffffff;
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1.4rem;
+    margin-top: 1rem; 
+}
+nav + span + h1 span {
+    display: block;
+    color: #c0392b;
+}
