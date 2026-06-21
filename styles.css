@@ -70,24 +70,21 @@ nav > a {
 nav > a:hover {
     background-color: #a93226;
 }
-.hero {
-    background-color: #000000;
-    padding-top: 6.4rem;
-    padding-bottom: 6.4rem;
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
-    display: flex;
-    align-items: center;
-}
-.hero-text {
-    flex-basis: 50%;
-}
-.pill {
+nav + span {
     color: #c0392b;
     border: 0.1rem solid rgba(192, 57, 43, 0.5);
     font-size: 1rem;
     padding: 0.4rem 1.2rem;
     border-radius: 2rem;
     margin-bottom: 2rem;
-    display: inline-block; 
+    display: inline-block;
+}
+nav + span + h1 {
+    font-size: 3.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+nav + span + h1 span {
+    display: block;
+    font-weight: bold;
 }
