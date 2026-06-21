@@ -70,3 +70,15 @@ nav > a {
 nav > a:hover {
     background-color: #a93226;
 }
+.hero {
+    background-color: #000000;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    display: flex;
+    align-items: center;
+}
+.hero-text {
+    flex-basis: 50%;
+}
