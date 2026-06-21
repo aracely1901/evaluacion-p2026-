@@ -20,6 +20,9 @@ img {
 }
 
 /* Tu código va aquí */
+body {
+  font-size: 1.6rem;
+  } 
 nav {
   background-color: #ffffff;
   height: 5.2rem;
